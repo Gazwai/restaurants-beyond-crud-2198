@@ -66,3 +66,7 @@ end
 # Custom Added
 gem 'ostruct'
 gem "simple_form"
+gem "bootstrap", "~> 5.2"
+gem "faker"
+gem "font-awesome-sass", "~> 6.1"
+gem "sassc-rails"
