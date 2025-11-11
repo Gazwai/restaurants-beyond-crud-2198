@@ -1,0 +1,9 @@
+<div class="container">
+  <h1><%= @restaurant.name %></h1>
+  <p><%= @restaurant.address %></p>
+  <p><%= "*" * @restaurant.rating %></p>
+  <%= link_to 'Back', restaurants_path, class: 'btn btn-secondary' %>
+  <%= link_to restaurant_path(@restaurant), class: 'btn btn-secondary', data: { turbo_method: :delete, turbo_confirm: 'Delete this restaurant?'} do %>
+    <i class="fa-solid fa-trash"></i>
+  <% end %>
+</div>
