@@ -64,9 +64,9 @@ group :test do
 end
 
 # Custom Added
-gem 'ostruct'
+gem "ostruct"
 gem "simple_form"
-gem "bootstrap", "~> 5.2"
+gem "bootstrap", "~> 5.3"
 gem "faker"
 gem "font-awesome-sass", "~> 6.1"
 gem "sassc-rails"

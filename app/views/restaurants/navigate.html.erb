@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>How to get to <%= @restaurant.name %></h1>
+  <p>Our address: <%= @restaurant.address %></p>
+  <p>To get here, follow these steps:</p>
+  <ol>
+    <li>Head north on Main St.</li>
+    <li>Turn right at the stop sign.</li>
+    <li>Our restaurant will be on your left.</li>
+  </ol>
+  <%= link_to "Back to restaurant", restaurant_path(@restaurant) %>
+</div>
